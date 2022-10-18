@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Likes Part 1</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section class="head">
+                <h1> Network </h1>
+            </section>
+            <section class="head-title">
+                <h1>Your Feed</h1>
+            </section>
+        </header>
+        <main>
+            <div id="user_info">
+               <section class="container_user_info">
+                    <p><img src="icons/user-circle.png"></p> 
+                    <p><a href="">Add on avatar</a></p>
+                    <h1><p>James Doe</p></h1>
+               </section>
+            </div>
+            <div id="user">
+                <section class="container_user">
+                    <section class="user_like">
+                        <h2>Neil M</h2>
+                        <p id="user_like_1"> 9 like(s) </p>
+                        <button class="btn_likes" onClick="add_like('1');">Like</button> 
+                    </section>
+                    <section class="user_desc">
+                        <p> This is some filler text, it can say anything we like </p>
+                    </section>
+                </section>
+                <section class="container_user">
+                    <section class="user_like">
+                        <h2>Nichole K</h2>
+                        <p id="user_like_2"> 12 like(s) </p>
+                        <button class="btn_likes" onClick="add_like('2');">Like</button> 
+                    </section>
+                    <section class="user_desc">
+                        <p> This is some filler text, it can say anything we like </p>
+                    </section>
+                </section>
+                <section class="container_user">
+                    <section class="user_like">
+                        <h2>Jim R</h2>
+                        <p id="user_like_3"> 9 like(s) </p>
+                        <button class="btn_likes" onClick="add_like('3');">Like</button> 
+                    </section>
+                    <section class="user_desc">
+                        <p> This is some filler text, it can say anything we like </p>
+                    </section>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

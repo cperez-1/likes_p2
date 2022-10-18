@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px solid red;
+}
+
+
+.container {
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+header {
+    background-color:black;
+    height: 55px;
+}
+
+
+.head {
+    padding: 12px 20px;
+}
+
+.head-title {
+    padding: 12px 20px;
+}
+
+.head-title h1 {
+    text-align: center;
+}
+
+
+.head h1{
+    color: white;
+}
+
+
+body main {
+    margin-top: 60px;
+    display: flex;
+}
+
+#user {
+    width: 65%;
+}
+
+.container_user {
+    padding: 20px;
+    border: solid 2px black;
+    margin-top: 20px;
+}
+
+.user_like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.user_like p {
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.user_like h2 {
+    width: 120px;
+}
+
+.user_desc {
+    width: 340px;
+}
+
+.user_desc p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn_likes {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    width: 100px;
+    background-color:orange;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black; 
+}
+
+.btn_likes:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+#user_info {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+}
+
+#user_info img{
+    width: 100px;
+    height: 100px;
+}
+
+.container_user_info {
+    border: solid 2px black;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: 225px;
+    
+}
+
+.container_user_info p {
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+
